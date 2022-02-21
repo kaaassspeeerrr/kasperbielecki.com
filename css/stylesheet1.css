@@ -7,6 +7,14 @@ div{
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  max-width: 960px
+}
+
+div.center{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 p{
@@ -27,12 +35,34 @@ h3{
   text-align: center;
 }
 
-img {
+img.wide {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
   width: 100%;
-  max-width: 100%;
+  max-width: 960px;
+}
+
+img.halfwide {
+  display: inline;
+  width: 40%;
+  max-width: 384px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+img.quarterwide {
+  display: inline;
+  width: 20%;
+  max-width: 192px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 iframe {
